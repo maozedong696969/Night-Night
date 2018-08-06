@@ -1,0 +1,80 @@
+*{margin:0;padding:0;}
+body {
+   background-image: url(bright2.jpg);
+   background-size: cover;
+   font-family: verdana;
+}
+h1 {
+    display:inline;
+    
+}
+
+hr {
+    background-color: rgb(24, 30, 44); height: 10px; border: 0;
+
+    
+}
+h2{
+    color:whitesmoke; 
+    margin-left: 10px;
+}
+
+
+    
+p{
+    color:whitesmoke;
+}
+
+container.box{
+    color: white;
+    box-align: right; 
+}
+   
+
+.boxed1{
+    width:350px;
+    Height:200px;
+    float: left;
+    
+
+}
+
+
+p.clear{
+    clear:both;
+    visibility:hidden;
+}    
+
+nav a:link, a:visited, a:active {
+    color: black;
+    background-color: rgb(126, 126, 126);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    }   
+
+nav a:hover {
+    color: rgb(72, 72, 72);
+    background: lightgrey;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-decoration: underline;
+    }
+nav {
+       float: right;
+       line-height: 70px;
+       margin-top: 70px;
+       margin-right: 20px;
+       }
+  
+nav li {
+       display: inline-block;
+       margin-right: 10px;
+       line-height: normal;
+       }
+
+
